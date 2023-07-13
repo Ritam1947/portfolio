@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritam Sanpui </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f7cdbfa69e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/2/android-chrome-512x512.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href ="#header">Home</a></li>
+                    <li><a href ="#about">About</a></li>
+                    <li><a href ="#services">Skills</a></li>
+                    <li><a href ="#portfolio">Projects</a></li>
+                    <li><a href ="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+             
+                <h2>All power is within you
+                <p>You can do anything<br>and everything...
+                <br>Believe in yourself..🫵</p>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Swami<span> Vivekanda</span></h2>
+            </div>
+        </div>
+    </div>
+<!.................About......................>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/1my.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <br>
+                <p>"Hi, My name is Ritam Sanpui.<br/> <br>I am a third-year Computer Science undergraduate. 
+                    With a strong foundation in C, C++, and Core Java, I enjoy exploring new
+                    technologies and am always ready to work hard to be proficient in them. I also have a keen interest in front-end development, creating visually appealing and user-friendly websites.
+                     Alongside my programming skills, I have explored the world of Machine Learning, where I have developed a few projects.
+                      Combining my technical knowledge and creativity, I strive to make a positive impact through innovative solutions.. 
+                      </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Languages')">Languages</p>
+                        <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>St.Aloysius Day School</span><br/>Completed my Class 10(ICSE)</li>
+                            <li><span>Sudhir Memorial Institute</span><br/>Completed my Class 12(CBSE)</li>
+                            <li><span>Institute of Engineering & Management</span><br/>Undergraduate(2021-2025)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Languages">
+                        <ul>
+                            <li><span>English</span><br/>Professional Working Proficiency</li>
+                            <li><span>Bengali</span><br/>Native or Bilingual Proficiency</li>
+                            <li><span>Hindi</span><br/>Full Professional Proficiency</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><span>Watching Horror/Science Friction movies</span><br/>Instellar,Gravity,Incidious</li>
+                            <li><span>Coin Collection</span><br/>love collecting different types of coins</li>
+                            <li><span>Learning and Exploring new technologies</span><br/>Currently learning cloud technologies(Azure) </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div> 
+    <!....................services.........................>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning </h2>
+                    <p>To be frank it is totally a statistical subject ...I had made movie recommendation system based on the genre in my 2nd year learned a lot of new things...</p>
+                        <a href ="#"></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>PostgreSQL</h2>
+                    <p>DBMS is a total Analysis-based subject and a person needs to be clear about what he/she wants and how to get or fetch it...</p>
+                        <a href ="#"></a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Core Java</h2>
+                    <p>Still in the Learning Process ...Java is the first lanaguage that I learned and undoubted I have a different level of passion for it....Concepts like Swing(GUI) makes me more excited!!!</p>
+                        <a href ="#"></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C,C++,C#</h2>
+                    <p>Currently hussling with CP skills...with c++ </p>
+                        <a href ="#"></a>
+                </div>
+                <div>
+                    <i class="fa-duotone fa-display-code"></i>  
+                    <h2>Front-end Development</h2>
+                    <p>Currently,learning collection framemwork,Servlet/JSP using apache tomcat... still alot to cover...</p>
+                    <a href ="#"></a>
+                </div>
+                <div>
+                    <i class="fa-thin fa-browser"></i>
+                    <h2>MERSTACK</h2>
+                    <p>Currently, a newbie or in a learning phase still a lot way to cover...</p>
+                    <a href ="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/movie.jpeg">
+                    <div class="layer">
+                        <h3>Movie Recommendation System </h3>
+                        <p>Built a Machine Learning model which can give you a list of movies according to your genre chose</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/house.jpg">
+                    <div class="layer">
+                        <h3>House price prediction System</h3>
+                        <p>Based on given house requirements in a specified city ,algorithm can predict the price of the house</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://github.com/Ritam1947" class="btn">See more on Github</a>
+        </div>
+    </div>
+<!-----------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <br/>
+                <p><i class="fa-regular fa-envelope"></i>ritamsanpui@gmail.com</p>
+                <br/>
+                <p><i class="fa-solid fa-phone"></i>9903872666</p>
+                <br/>
+                <br/>
+                <div class="social-icons">
+                    <a href ="https://www.linkedin.com/in/ritam-sanpui-0711b4231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSWcH0IbxRkmnzQLNzR50gw%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href ="https://github.com/Ritam1947"><i class="fa-brands fa-square-github"></i></a>
+                    <a href ="https://twitter.com/RitamSanpu36685?t=zweSqKMh0s48a9MCtYYRtQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+                    <a href ="https://www.instagram.com/invites/contact/?i=1jzk71i9rddfy&utm_content=q9n0u8y"><i class="fa-brands fa-instagram"></i></a>
+                    <a href ="https://t.me/ritamsanpui"><i class="fa-brands fa-telegram"></i></a>
+                    
+                </div>
+                <a href="https://drive.google.com/file/d/197esZvJrdRZZKubWxcBv5WevWGzjYgg_/view?usp=drive_link" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+
+                <!--form starts here-->
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-sharp fa-solid fa-copyright"></i>Ritam Sanpui | 2023 All rights reserved</p>
+    </div>
+</div>
+
+
+   <script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+   </script>
+   <script>
+    
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxkLL8CujCk9qJZnLnNBzZha4PZNbYHeLKe1ec0EliU0PQBMaeEv5Zhw7AnIQtxTas/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML ="";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
