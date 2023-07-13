@@ -55,11 +55,11 @@ nav ul li a:hover:after{
 }
 .header-text{
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 30px;
 }
 .header-text h2 {
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 50%; /* Increase the value to move the quote down */
     text-align: right;
 }
